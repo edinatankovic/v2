@@ -1,7 +1,11 @@
 # Homework 7 - Neural face detection pipeline
 # Updated by Edina on 10/08/2019
 
-As the base for HW7 I used hw07-hint.ipynb notebook that came with it. 
+As the base for HW7 I used hw07-hint.ipynb notebook that came with it. The files supplied are the following:
+- hw7.html is saved notebook
+- hw7.ipynb is the code that generated the html version above
+- Frame71.jpg is just one frame from Jetson camera that has a face
+- Face0.jpg is extracted face through tensorflow
 
 ### Describe your solution in detail. What neural network did you use? What dataset was it trained on? What accuracy does it achieve?
 

@@ -3,18 +3,18 @@
 
 As the base for HW7 I used hw07-hint.ipynb notebook that came with it. 
 
-# Describe your solution in detail. What neural network did you use? What dataset was it trained on? What accuracy does it achieve?
+### Describe your solution in detail. What neural network did you use? What dataset was it trained on? What accuracy does it achieve?
 
 Answer: From my HW3 I already had a directory where image files representing camera frames were kept for verification. I modified that script to capture new frames from camera and save them down to a local directory without cutting the face. Then I created my own version of python notebook that was based on the hint, where the image being read was replaced by my fresh image. I used Tensorflow face detection model that came with the hint to detect the face, cut it out and save it to an external file (or forward on mqtt). I have used prepared model for Tensorflow face detection.
 
-# Does it achieve reasonable accuracy in your empirical tests? Would you use this solution to develop a robust, production-grade system?
+### Does it achieve reasonable accuracy in your empirical tests? Would you use this solution to develop a robust, production-grade system?
 	
 Answer: given time I would like to test it a bit more with variety of faces and non faces as input.
 
-# What framerate does this method achieve on the Jetson? Where is the bottleneck?
+### What framerate does this method achieve on the Jetson? Where is the bottleneck?
 Answer: I didn’t get to extract this one.
 
-# Which is a better quality detector: the OpenCV or yours?
+### Which is a better quality detector: the OpenCV or yours?
 Answer: OpenCV was a bit easier to use, I would need to do more testing to decide about the quality.
 
 
